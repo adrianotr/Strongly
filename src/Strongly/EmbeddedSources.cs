@@ -92,6 +92,7 @@ static class EmbeddedSources
             ["NEW_DEFAULT"] = LoadEmbeddedResource("Guid.New.Guid_New"),
             ["NEW_SEQUENTIAL"] = LoadEmbeddedResource("Guid.New.Guid_New_Sequential"),
             ["NEW_COMB"] = LoadEmbeddedResource("Guid.New.Guid_Comb_New"),
+            ["NEW_NULID"] = LoadEmbeddedResource("Guid.New.Guid_New_NUlid"),
         },
     };
 

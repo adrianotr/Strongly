@@ -24,5 +24,6 @@ public static class DapperTypeHandlers
         SqlMapper.AddTypeHandler(new DapperShortId.DapperTypeHandler());
         SqlMapper.AddTypeHandler(new DapperByteId.DapperTypeHandler());
         SqlMapper.AddTypeHandler(new DapperNativeIntId.DapperTypeHandler());
+        SqlMapper.AddTypeHandler(new DapperNUlidGuidId.DapperTypeHandler());
     }
 }

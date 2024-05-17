@@ -37,6 +37,14 @@ static class SourceGenerationHelper
                         .Customizations["NEW_COMB"].Value,
                 },
             },
+            StronglyType.NUlidGuid => EmbeddedSources.GuidResources with
+            {
+                TemplateVars = new()
+                {
+                    ["[NEW_METHOD]"] = EmbeddedSources.GuidResources
+                        .Customizations["NEW_NULID"].Value,
+                },
+            },
             StronglyType.Int => EmbeddedSources.IntResources,
             StronglyType.Long => EmbeddedSources.LongResources,
             StronglyType.Short => EmbeddedSources.ShortResources,
